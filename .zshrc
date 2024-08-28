@@ -60,3 +60,8 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# dotfiles for Cursor in Spin
+git clone https://github.com/shopify/cursor-dotfiles ~/shopify-dotfiles/cursor-dotfiles
+chmod +x ~/shopify-dotfiles/cursor-dotfiles/install.sh
+~/shopify-dotfiles/cursor-dotfiles/install.sh
