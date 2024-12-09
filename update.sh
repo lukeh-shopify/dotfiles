@@ -2,4 +2,4 @@
 
 cp ~/.zshrc .
 cp ~/.p10k.zsh .
-cp ~/bin/shopify .
+cp ~/bin/shopify-dev .

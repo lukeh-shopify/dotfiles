@@ -22,8 +22,8 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # Aliases
-alias shopify-dev='/Users/$USER/bin/shopify'
 alias setupstream='ggsup'
+alias shopify-dev='/Users/$USER/bin/shopify-dev'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -35,7 +35,7 @@ alias setupstream='ggsup'
 [[ -x /opt/homebrew/bin/brew ]] && eval $(/opt/homebrew/bin/brew shellenv)
 
 # Add extra things to PATH
-export PATH="$HOME/bin:$PATH"
+# export PATH="$HOME/bin:$PATH"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -60,3 +60,4 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+

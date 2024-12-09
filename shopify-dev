@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-process.env.SHOPIFY_RUBY_BINDIR = "/opt/rubies/3.3.4/bin"
 process.env.SHOPIFY_HOMEBREW_FORMULA = "shopify-cli"
 
 import("/Users/lukehickin/src/github.com/Shopify/cli/packages/cli/bin/run.js")
+

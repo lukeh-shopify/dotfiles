@@ -9,17 +9,17 @@ if [ -f ~/.p10k.zsh ]; then
     mv ~/.p10k.zsh ~/.p10k.zsh.bak
 fi
 
-if [ -f ~/bin/shopify ]; then
-    mv ~/bin/shopify ~/bin/shopify
+if [ -f ~/bin/shopify-dev ]; then
+    mv ~/bin/shopify-dev ~/bin/shopify-dev.bak
 fi
 
 # Copy new files
 cp .zshrc ~/.zshrc
 cp .p10k.zsh ~/.p10k.zsh
-cp shopify ~/bin/shopify
+cp shopify-dev ~/bin/shopify-dev
 
 # Permissions
-chmod +x ~/bin/shopify
+chmod +x ~/bin/shopify-dev
 
 # Pre-reqs
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
