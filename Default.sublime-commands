@@ -1,0 +1,16 @@
+[
+    {
+        "caption": "Open PR",
+        "command": "git",
+        "args": {
+            "argv": ["dev-open-pr"]
+        }
+    },
+    {
+        "caption": "Fetch and Reset Hard",
+        "command": "git",
+        "args": {
+            "argv": ["fetch-and-reset-hard"]
+        }
+    }
+]

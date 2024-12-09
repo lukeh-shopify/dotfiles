@@ -1,0 +1,12 @@
+[include]
+	path = /Users/lukehickin/.config/dev/gitconfig
+[user]
+	name = Luke Hickin
+	email = luke.hickin@shopify.com
+[core]
+	editor = cursor -w
+[alias]
+	dev-open-pr = "!f() { /opt/dev/bin/dev open pr; }; f"
+	fetch-and-reset-hard = "!f() { git fetch --all -p && git reset --hard origin/$(git branch --show-current); }; f"
+[init]
+	defaultBranch = main
